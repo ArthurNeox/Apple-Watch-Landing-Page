@@ -11,4 +11,4 @@
 [Clique aqui para acessar](https://arthurneox.github.io/Apple-Watch-Landing-Page/)
 
 ## Entre em contato
-[LinkedIn:](https://www.linkedin.com/in/thurmoreira/)
+[LinkedIn](https://www.linkedin.com/in/thurmoreira/)
