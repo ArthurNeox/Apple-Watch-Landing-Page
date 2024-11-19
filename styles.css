@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+header {
+    width: calc(100vw - 85px);
+    position: relative;
+
+}
+
+.horizontal {
+    height: 100px;
+    display: flex;
+    margin: 0 0 0 auto;
+    border: none;
+
+}
+
+.horizontal-principal {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+
+.horizontal-principal nav {
+    display: inline-flex;
+    justify-content: left;
+    text-decoration: none;
+    width: 80%;
+    color: white;
+
+
+}
+
+.horizontal-principal nav ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.horizontal-principal nav ul li a {
+    text-decoration: none;
+    color: white
+
+}
+
+.horizontal-principal nav ul li a.iWatch-borda {
+    color: #B6CCDA;
+    
+}
+
+
+
+.iWatch {
+    border: 2px solid white; 
+    border-radius: 50px;
+    text-decoration: none; 
+    background: white; 
+    
+}
+
+.iWatch-borda {
+    padding: 12px 24px;
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo, .busca {
+    margin: 0 2.5em;
+
+
+}
+
+.vertical {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+
+}
+
+.vertical nav ul {
+    list-style: none;
+
+}
+
+.menu__hamburguer {
+    margin-top: 2em;
+
+}
+
+.menu__hamburguer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.menu__hamburguer ul li {
+    width: 36px;
+    height: 30px;
+
+}
+
+
+.social__media ul {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+
+.social__media ul li a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+section { 
+    height: 100vh;
+    width: calc(100vw - 85px);
+    margin: 0 0 0 auto;
+    border: none;
+    background: linear-gradient(135deg, #B6CCDA, #C8DCE5);
+    
+
+}
+
+.principal {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.relógio {
+    height: 600px;
+    width: 700px;
+    margin: 0 8em;
+    
+}
+
+.relógio img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.texto {
+    /* border: 1px solid yellow; */
+    align-items: center;
+    padding-top: auto;
+    color: white;
+    height: 300px;
+    width: 700px;
+    margin: 0 8em;
+}
+
+
+.título {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.parágrafo {
+    font-size: 64px;
+    font-weight: 300;
+    
+
+}
+
+.botão {
+    display: flex; 
+    border: 2px solid white; 
+    border-radius: 40px;
+    padding: 0.4em; 
+    margin: 0.8em 0;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    text-decoration: none; 
+    background: transparent;
+    color: white;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; 
+
+}
+
+.botão:hover {
+    background-color: white; 
+    color: #B6CCDA; 
+    transform: translateY(-1px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.indicador {
+
+    margin-left: 8em;
+    height: 30px;
+    position: absolute;
+    bottom: 45px;
+}
+
+.relógios {
+    /* border: 1px solid red; */
+    display: inline-flex;
+    width: auto;  
+    height: 150px;  
+    position: absolute;
+    right: 0;
+    margin-right: 8em;
+    gap: 25px;
+    
+}
+
+.watch-azul {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+   
+}
+
+.watch-azul:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+.watch-preto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+   
+}
+
+.watch-preto:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+.watch-verde {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.watch-verde:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+.watch-rosa {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.watch-rosa:hover {
+    transform: scale(1.05);
+    border-radius: 20px;
+}
+
+.indicador-relógios {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+.seletores {
+    /* border: 1px solid purple; */
+    display: flex;
+    transform: rotate(90deg);
+    
+}
